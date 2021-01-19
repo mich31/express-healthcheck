@@ -9,16 +9,16 @@ export default [
     {
         path: '/health',
         method: 'get',
-        handler: (req: Request, res: Response) => controller.health()
+        handler: (req: Request, res: Response) => controller.health(res)
     },
     {
         path: 'live',
         method: 'get',
-        handler: (req: Request, res: Response) => controller.live()
+        handler: (req: Request, res: Response) => controller.live(res)
     },
     {
         path: 'ready',
         method: 'get',
-        handler: (req: Request, res: Response) => controller.ready()
+        handler: (req: Request, res: Response) => controller.ready(res)
     }
 ]
