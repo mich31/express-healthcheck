@@ -1,10 +1,10 @@
 import { Container } from 'inversify'
-import { Controller } from '../controller';
+import { HealthCheckController } from '../healthcheck.controller';
 import TYPES from './types';
 
 const container = new Container();
 
-container.bind<Controller>(TYPES.Controller).to(Controller);
+container.bind<HealthCheckController>(TYPES.Controller).to(HealthCheckController);
 
 Object.seal(container);
 
