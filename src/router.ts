@@ -1,9 +1,9 @@
-import { Request, Response } from 'express'
-import container from './container/inversify.config'
+import { Request, Response } from 'express';
+import container from './container/inversify.config';
 import TYPES from './container/types';
-import { Controller } from './controller'
+import { HealthCheckController } from './healthcheck.controller';
 
-const controller = container.get<Controller>(TYPES.Controller);
+const controller = container.get<HealthCheckController>(TYPES.Controller);
 
 export default [
     {
