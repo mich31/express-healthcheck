@@ -13,5 +13,4 @@ jobs:
       on:
         branch: master
       email: $EMAIL_ADDRESS
-      api_key:
-        secure: C+xwhQkVu1Ad3+MD+kyxAoPlbtjCOUU4mCiygUj9xL4x2oJYwgteJLFjxDjpKM1B1C+WnHaS7kd3LqPsLvr1m0IAv2UymDNbmLcTynkqwDolLb74A9fK+s0FIo44rqjkd1Dq/aon1GB9psbioiuDGYPir2AynHL+oAY0kB3LKTWMd0pjqCBl0w8662GKIti9BL6AabtiNJg15cqDujD3L++jOnfdM9eUsZcLCTrtzg0xlImEfCjpzbKQxJcYBWg4cOpLAdYzRv1WHwxdZA0m60ozj597Zun6puePJkhGBWpbr1jf+mFtddSEiAddHWTTs3CWaJTYOU1haEyVnuSYqnwFC30A7yqO9a07a2++zLu/YNJZSk5jcCWkI8C4PxAbokB48fIjZOdvxLAI2WVgvY/gLN6GLYSIPda8y6Omi6jFWPvUxzoz50kZTcISckmkLD4B0Hb/eNqZFhg8T8nr5Tsd1+rJ3dsw/vZ8Qp5UI7O+SPc+evED4YTlrl/twKaQoEh9IFAVCPf8cQkckYs72CFCcLxXHCqW2O3j8CqiEoziKcIGkHz/NF+od82xcuHXJpUK8ZaVv2vSiesV/uwfhu+5raMJswdGtiNyaVKJtKdP6cT7RZkIEZkjU2iAG8FHBf0k2AYsGpeleSOhIP7phhcbmlPyMV6hX7gsOQzUn0A=
+      api_key: $NPM_API_KEY_ENCRYPTED
